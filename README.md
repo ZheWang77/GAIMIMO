@@ -7,7 +7,7 @@ This repository contains a demo implementation of the algorithm as presented in:
 > **"Mixture of Experts for Network Optimization: A Large Language Model-enabled Approach" [Download Paper](https://arxiv.org/pdf/2402.09756.pdf)**
 
 
-In this part, we representatively provide tutorials for case studies in this paper. For XL-MIMO hardware design, we study UPA-based XL-MIMO with point antennas in case studies.<br>
+					In this part, we representatively provide tutorials for case studies in this paper. For XL-MIMO hardware design, we study UPA-based XL-MIMO with point antennas in case studies.<br>
 					
 					
 					
@@ -32,18 +32,18 @@ pip show langchain
 <h2>🔍 Case Study 1: Capacity Maximization for Non-Parallel Transceiver</h2>
     <p>We formulate the capacity maximization problem for non-parallel tranceiver. The interactive assistance from the generative AI agent can be implemented (an exmaple):</p>
 	    
-    <img src="readme/C11.png" width="100%" alt="Interactive">	
+    <img src="readme/C11.png"  width: auto  height: auto alt="Interactive">	
 		<p>With the assitance of the generative AI agent, we can study the capacity maximization problem for non-parallel tranceiver. We use Matlab to implement performance evaluation. We consider one square transmitting UPA surface and one square receiving UPA surface with similar physical sizes $10\lambda \times 10\lambda$. The transmitting distances between the center point of the transmitter and the center point of the transmitter for (a) and (b) are $30\lambda$ and $4\lambda$, respectively. And the signal-to-noise ratio (SNR) $P/N_0=10$.</p>	
-<img src="readme/Case1.png" width="60%" alt="Case1">
+<img src="readme/Case1.png"  width: auto  height: auto alt="Case1">
 
     <h2>🔍 Case Study 2: EDoF Maximization for Various Shapes of Transceiver</h2>
     <p>We then study the EDoF maximization problem for various shapes of transceiver. The interactive assistance from the generative AI agent can be implemented (an exmaple):</p>
-    <img src="readme/C21.png" width="60%" alt="C21">
-    <img src="readme/C22.png" width="60%" alt="C22">
-   <img src="readme/C22.png" width="60%" alt="C23">
+    <img src="readme/C21.png"  width: auto  height: auto alt="C21">
+    <img src="readme/C22.png"  width: auto  height: auto alt="C22">
+   <img src="readme/C22.png"  width: auto  height: auto alt="C23">
 
 				<p>We can efficiently formulate the EDoF maximization problem for various shapes of transceiver with the assistance of the generative AI agent. We apply Matlab to implement simulation evaluation. We have $L=12\lambda$ and transmitting distance $d=10\lambda$.</p>
-
+   <img src="readme/Case2.png"  width: auto  height: auto alt="Case2">
     <hr>
 
 ## 📚 Cite Our Work

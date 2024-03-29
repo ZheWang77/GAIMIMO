@@ -202,37 +202,27 @@ pip show langchain
 <h2>⚡ Setting Up LangChain with Database based on RAG</h2>
 <p>Set up LangChain based on <a href="https://github.com/RickyZang/GIAI" target="_blank">this repository</a>. The database is established by merging research papers about the performance analysis of XL-MIMO:
 <br>
-<a href="https://arxiv.org/abs/2401.15280" target="_blank">[1]</a> Z. Wang, J. Zhang, W. Yi, H. Du, D. Niyato, B. Ai, and D. W. K. Ng, "Analytical framework for effective degrees of freedom in near-field XL-MIMO," arXiv:2401.15280, 2024.
+[1] Z. Wang, J. Zhang, W. Yi, H. Du, D. Niyato, B. Ai, and D. W. K. Ng, "<a href="https://arxiv.org/abs/2401.15280" target="_blank">Analytical framework for effective degrees of freedom in near-field XL-MIMO</a>," arXiv:2401.15280, 2024.
 <br>
-<a href="https://arxiv.org/abs/2304.06141" target="_blank">[2]</a> Z. Xie, Y. Liu, J. Xu, X. Wu, and A. Nallanathan, "Performance analysis for near-field MIMO: Discrete and continuous aperture antennas," arXiv:2304.06141, 2023.
+[2] Z. Xie, Y. Liu, J. Xu, X. Wu, and A. Nallanathan, "<a href="https://arxiv.org/abs/2304.06141" target="_blank">Performance analysis for near-field MIMO: Discrete and continuous aperture antennas</a>," arXiv:2304.06141, 2023.
 <br>
-<a href="https://ieeexplore.ieee.org/document/9650519" target="_blank">[3]</a> S. S. A. Yuan, Z. He, X. Chen, C. Huang, and W. E. I. Sha, "Electromagnetic effective degree of freedom of an MIMO system in free space," IEEE Antennas Wireless Propagat. Lett., vol. 21, no. 3, pp. 446–450, Mar. 2022.
+[3] S. S. A. Yuan, Z. He, X. Chen, C. Huang, and W. E. I. Sha, "<a href="https://ieeexplore.ieee.org/document/9650519" target="_blank">Electromagnetic effective degree of freedom of an MIMO system in free space</a>," IEEE Antennas Wireless Propagat. Lett., vol. 21, no. 3, pp. 446–450, Mar. 2022.
 	    
 
+<h2>🔍 Case Study 1: Capacity Maximization for Non-Parallel Transceiver</h2>
+    <p>We formulate the capacity maximization problem for non-parallel tranceiver. The interactive assistance from the generative AI agent can be implemented (an exmaple):</p>
+	    
+    <img src="readme/C11.png" width="100%" alt="Interactive">	
+		<p>With the assitance of the generative AI agent, we can study the capacity maximization problem for non-parallel tranceiver. We use Matlab to implement performance evaluation. We consider one square transmitting UPA surface and one square receiving UPA surface with similar physical sizes $10\lambda \times 10\lambda$. The transmitting distances between the center point of the transmitter and the center point of the transmitter for (a) and (b) are $30\lambda$ and $4\lambda$, respectively. And the signal-to-noise ratio (SNR) $P/N_0=10$.</p>	
+<img src="readme/Case1.png" width="60%" alt="Case1">
 
-    <h2>⚡ Activate Environment</h2>
-    <p>Activate the environment with:</p>
-    <pre><code>conda activate moeopt</code></pre>
+    <h2>🔍 Case Study 2: EDoF Maximization for Various Shapes of Transceiver</h2>
+    <p>We then study the EDoF maximization problem for various shapes of transceiver. The interactive assistance from the generative AI agent can be implemented (an exmaple):</p>
+    <img src="readme/C21.png" width="60%" alt="C21">
+    <img src="readme/C22.png" width="60%" alt="C22">
+   <img src="readme/C22.png" width="60%" alt="C23">
 
-    <h2>📦 Install Required Packages</h2>
-		    <p>Install the necessary packages one by one using pip:</p>
-<pre><code>pip install torch
-pip install opencv-python==4.1.2.30
-pip install scipy
-pip install torchvision
-pip install scikit-image</code></pre>
-
-
-    <h2>🏃‍♀️ Run the Program</h2>
-    <p>Execute <code>main.py</code> to initiate the program.</p>
-
-    <h2>🔍 Case Study 1: Maze Navigation Task</h2>
-    <p>LLM-enabled MoE framework demonstrated in a maze navigation task, using an ensemble of DRL models for diverse tasks as expert models for the LLM to infer and address user tasks.</p>
-    <img src="readme/2.png" width="100%" alt="Maze Navigation Task">
-
-    <h2>🔍 Case Study 2: Service Provider Utility Maximization Problem</h2>
-    <p>Illustration of the system model, market interactions, and the impact of varying user requirements on service payments and power allocation strategies.</p>
-    <img src="readme/3.png" width="60%" alt="Service Provider Utility Maximization Problem">
+				<p>We can efficiently formulate the EDoF maximization problem for various shapes of transceiver with the assistance of the generative AI agent. We apply Matlab to implement simulation evaluation. We have $L=12\lambda$ and transmitting distance $d=10\lambda$.</p>
 
     <hr>
 

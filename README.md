@@ -1,4 +1,4 @@
-# [MoE4OPT Project](https://hongyangdu.github.io/MoE4OPT/)
+# [GAIMIMO Project]([https://hongyangdu.github.io/MoE4OPT/](https://zhewang77.github.io/GAI_MIMO/))
 
 # 🔴 The code will be made available upon publications.🔴
 

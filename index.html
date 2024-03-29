@@ -192,10 +192,24 @@
 			    
 			    <hr>
 
+
+    <h2>🔧 Install Required Packages</h2>
+		    <p>Install the necessary packages one by one using pip:</p>
+		    <pre><code>pip install torch
+			    pip install langchain 
+			    pip install openai 
+			    pip install tiktoken 
+			    pip install chromadb
+			    pip show langchain
+		    </code></pre>		    
+
     <h2>🔧 Setting Up LangChain with Database based on RAG</h2>
-    <p>Set up LangChain based on <a href="https://github.com/RickyZang/GIAI" target="_blank">this repository</a>.
-	    To establish a new conda environment, run the following command:</p>
-    <pre><code>conda create --name moeopt python==3.7</code></pre>
+    <p>Set up LangChain based on <a href="https://github.com/RickyZang/GIAI" target="_blank">this repository</a>. The database is established by merging research papers about the performance analysis of XL-MIMO:
+	    <a href="https://arxiv.org/abs/2401.15280" target="_blank">[1] Z. Wang, J. Zhang, W. Yi, H. Du, D. Niyato, B. Ai, and D. W. K. Ng, "Analytical framework for effective degrees of freedom in near-field XL-MIMO," arXiv:2401.15280, 2024.</a>
+	    <a href="https://arxiv.org/abs/2304.06141" target="_blank">[2] Z. Xie, Y. Liu, J. Xu, X. Wu, and A. Nallanathan, "Performance analysis for near-field MIMO: Discrete and continuous aperture antennas," arXiv:2304.06141, 2023.</a>
+	    <a href="https://ieeexplore.ieee.org/document/9650519" target="_blank">[3] S. S. A. Yuan, Z. He, X. Chen, C. Huang, and W. E. I. Sha, "Electromagnetic effective degree of freedom of an MIMO system in free space," IEEE Antennas Wireless Propagat. Lett., vol. 21, no. 3, pp. 446–450, Mar. 2022.</a>
+	    
+
 
     <h2>⚡ Activate Environment</h2>
     <p>Activate the environment with:</p>
